@@ -1,7 +1,7 @@
 extensions = Внутренние номера
 extensions.accountcode = Код аккаунта
 extensions.accountcode.invalid = Пожалуйста, введите правильный Код аккаунта
-extensions.accountcode.tooltip = Это поле, если оно определено, используется для заполнения поля «account-code» в детализации звонков (CDR).
+extensions.accountcode.tooltip = Это поле, если оно определено, используется для заполнения поля «Код аккаунта» в Детализации звонков (CDR).
 extensions.advanced = Дополнительно
 extensions.alias = Псевдоним
 extensions.alias.tooltip = Альтернативное имя, которое можно использовать в телефонной книге, созданной системой, или для набора номера с использованием кода функции «Телефонная книга».
