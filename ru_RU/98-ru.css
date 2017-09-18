@@ -66,3 +66,47 @@
      width: 25%;
 	}
 }
+
+/*Align "Extension status" table*/
+.table > thead > tr > th {
+    vertical-align: middle;
+    }
+#extension-status-table > thead > tr > th.center.sorting_asc {
+    padding-left: 14px;
+    }
+#extension-status-table > thead > tr > th.center.sorting_desc {
+    padding-left: 14px;
+    }
+@media (max-width: 992px) {
+table.dataTable thead .sorting_asc:after {
+    display: inline;
+    position: relative;
+    left: 45%;
+    bottom: 0px;
+    vertical-align: middle;
+    }
+table.dataTable thead .sorting_desc:after {
+    display: inline;
+    position: relative;
+    left: 45%;
+    bottom: 0px;
+    vertical-align: middle;
+    }
+}
+@media (min-width: 992px) {
+table.dataTable thead .sorting_asc:after {
+    display: inline;
+    position: relative;
+    left: 30%;
+    bottom: 0px;
+    vertical-align: middle;
+table.dataTable thead .sorting_desc:after {
+    display: inline;
+    position: relative;
+    left: 30%;
+    bottom: 0px;
+    vertical-align: middle;
+    }
+}
+
+
