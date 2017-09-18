@@ -1,6 +1,6 @@
 custom_app = Пользовательские приложения 
-custom_app.description = Имя
-custom_app.description.tooltip = Имя для идентификации этого пользовательского приложения.
+custom_app.description = Название
+custom_app.description.tooltip = Название для идентификации этого пользовательского приложения.
 custom_app.destination = Назначение
 custom_app.extension = Код
 custom_app.extension.invalid = Неверный код пользовательского приложения. Разрешены только символы *, #, + и цифры.
